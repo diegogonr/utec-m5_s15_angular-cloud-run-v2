@@ -6,6 +6,7 @@ export PROJECT_ID="gh-proj-devsecops-02"
 export SA_NAME="github-actions-sa"
 
 
+
 gcloud iam service-accounts create $SA_NAME \
     --display-name="GitHub Actions Service Account"
 
